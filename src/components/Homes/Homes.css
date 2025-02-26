@@ -1,0 +1,94 @@
+.homes {
+  background-color: #F6F8FA;
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 0;
+}
+
+.home h2, .home p{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.home h2 {
+  font-size: 40px;
+}
+
+.home p{
+  font-size: 17px;
+}
+
+ .cards { 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+} 
+
+.card{
+  width: 410px;
+  height: 403px;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+
+}
+.card-img {
+  width: 370px;
+  height: 260px;
+  border-radius: 16px;
+}
+.description{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  line-height: 2;
+  gap: 90px;
+
+}
+.property{
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  margin-left: 0;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+.vector {
+  width: 18px;
+  height: 17px;
+  margin-bottom: 12px;
+}
+
+.details{
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+}
+
+.attribute {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.price {
+  color: #EB664E;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.price span {
+  font-size: 15px;
+  font-weight: 400;
+}
