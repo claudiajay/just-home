@@ -19,9 +19,9 @@ const Hero = () => {
         <form >
           <div className='search-div'>
           <input type='search' placeholder='Enter Name, Keywords...'/>
-          <button className='search-btn'>
+          {/* <button className='search-btn'>
             <img src={search} className='search'/>
-            </button>    
+            </button>     */}
           </div>
 
         </form>
