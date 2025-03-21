@@ -1,94 +1,120 @@
 .homes {
-  background-color: #F6F8FA;
-  width: 100%;
-  min-height: 100vh;
-  padding: 60px 0;
+  padding: 40px;
+  background-color: #f9f9f9;
 }
 
-.home h2, .home p{
+.home {
   text-align: center;
-  margin-bottom: 10px;
-}
-.home h2 {
-  font-size: 40px;
+  margin-bottom: 30px;
+  line-height: 40px;
 }
 
-.home p{
-  font-size: 17px;
-}
-
- .cards { 
+.cards {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 50px;
-} 
-
-.card{
-  width: 410px;
-  height: 403px;
-  background-color: #ffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 20px;
   justify-content: center;
-  border-radius: 20px;
-
+  margin-top: 20px;
 }
+
+.card {
+  width: 400px;
+  height: 380px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding-bottom: 10px;
+}
+
 .card-img {
-  width: 370px;
-  height: 260px;
+  width: 94%;
+  height: 50%;
+  object-fit: fill;
+  margin-top: 10px;
   border-radius: 16px;
 }
-.description{
-  /* background-color: red; */
-  display: flex;
-  align-items: center;
-  /* justify-content: space-between; */
-  line-height: 2;
-  gap: 90px;
 
-}
-.property{
+.badges {
+  position: absolute;
+  top: 20px;
+  left: 20px;
   display: flex;
-  /* align-items: center; */
-  flex-direction: column;
-  margin-left: 0;
+  gap: 5px;
+}
+
+.badge {
+  background-color: #1F4B43;
+  width: 90px;
+  height: 35px;
+  color: white;
+  font-size: 12px;
+  padding: 0px 10px;
+  border-radius: 40px;
+  font-weight: bold;
+  
+}
+
+.badge.featured {
+  background-color: #E7C873;
+  color: #1A1A1A;
+}
+
+.description {
+  padding: 0 15px;
+  display: flex;
+  text-align: start;
+}
+
+.property h4 {
+  font-size: 18px;
+  text-align: start;
+
 }
 
 .location {
   display: flex;
   align-items: center;
-  justify-content: center;
-
-  gap: 10px;
+  gap: 5px;
+  color: #666;
+  font-size: 14px;
 }
 
-.vector {
-  width: 18px;
-  height: 17px;
-  margin-bottom: 12px;
-}
-
-.details{
+.price {
+  position: relative;
   display: flex;
-  gap: 40px;
-  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #EB664E;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+.price span {
+  font-size: 14px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 0 0 10px 10px;
+  position: absolute; /* Ensure it stays inside the card */
+  bottom: 0;
+  width: 100%;
 }
 
 .attribute {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
+  font-size: 14px;
+  color: #333;
 }
-
-.price {
-  color: #EB664E;
-  font-size: 21px;
-  font-weight: 600;
-}
-
-.price span {
-  font-size: 15px;
-  font-weight: 400;
+.vector {
+  width: 16px;
+  height: 16px;
+  /* margin-right: 5px;
+  margin-top: -20px; */
 }
