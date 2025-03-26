@@ -19,14 +19,13 @@
 
 .swiper {
   padding: 0 16px;
-
+  width: 60%;
 }
 
 
 
 .slide {
   position: relative;
-  /* justify-content: space-between; */
   border-radius: 12px;
   width: 35%;
   overflow: hidden;
